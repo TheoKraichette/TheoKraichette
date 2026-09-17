@@ -6,6 +6,13 @@
 
 *Ingestion → lakehouse → modèle → application.*
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
 </div>
 
 ---
@@ -27,7 +34,6 @@
 | **[ExoLifeAnalyzer](https://github.com/TheoKraichette/ExoLifeAnalyzer)** | Indicateurs de vie détectés sur un flux de signaux à 50–100 msg/s, architecture Lambda HDFS-first | `Kafka` `Hadoop` `HDFS` `Spark` `MongoDB` `Parquet` `Docker` |
 | **[CrimeScope NYC](https://github.com/Calamia92/CrimeScope-NYC)** | Plaintes du NYPD : entrepôt ClickHouse, indexation géospatiale H3, prévisions par le modèle Chronos-2 <sub>· équipe</sub> | `ClickHouse` `Chronos-2` `H3` `Socrata` `SvelteKit` `Bun` `ElysiaJS` `FastAPI` `MapLibre` `Docker` |
 | **[tp-datalake](https://github.com/TheoKraichette/tp-datalake)** | Lac objet et métadonnées relationnelles, ingestion orchestrée sans écrire de glue code | `PostgreSQL` `MinIO` `S3` `n8n` `Docker` |
-
 
 Du développement applicatif, utile tous les jours pour livrer un modèle autrement qu'en notebook :
 **[WeSkateGo](https://github.com/TheoKraichette/WeSkateGo)** (React Native, géolocalisation) et
