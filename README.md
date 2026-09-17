@@ -39,7 +39,7 @@ par renforcement sous contrainte réglementaire.
 
 | | |
 |---|---|
-| **Modèles** | PyTorch · TensorFlow/Keras · scikit-learn · NumPy · CNN · RNN/LSTM · Transformers · attention · transfer learning |
+| **Modèles** | PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · NumPy · CNN · RNN/LSTM · Transformers · attention · transfer learning |
 | **Apprentissage par renforcement** | DQN · behavior cloning · politiques et évaluation écrites à la main |
 | **Langage &amp; vision** | spaCy · XLM-RoBERTa · TF-IDF/SVM · NER · Tesseract (OCR) · YOLO · MediaPipe · Grad-CAM |
 | **Données** | Airflow · Spark · Kafka · n8n · DuckDB · ClickHouse · PostgreSQL · MongoDB · MinIO/S3 · HDFS · Parquet · architecture médaillon · Lambda |
