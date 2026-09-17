@@ -37,11 +37,12 @@ M2 Développement / Data / IA — mémoire sur la conception d'îlots urbains pa
 par renforcement sous contrainte réglementaire.
 ## Stack
 
-| | |
+| Domaine | Technologies |
 |---|---|
-| **Modèles** | PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · NumPy · CNN · RNN/LSTM · Transformers · attention · transfer learning |
-| **Apprentissage par renforcement** | DQN · behavior cloning · politiques et évaluation écrites à la main |
-| **Langage &amp; vision** | spaCy · XLM-RoBERTa · TF-IDF/SVM · NER · Tesseract (OCR) · YOLO · MediaPipe · Grad-CAM |
+| **Modèles** | PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · NumPy · CNN · RNN/LSTM · Transformers (attention implémentée à la main) · transfer learning |
+| **Apprentissage par renforcement** | Q-learning tabulaire · DQN · PPO · behavior cloning · politiques et évaluation écrites à la main |
+| **Traitement du langage** | spaCy · XLM-RoBERTa · TF-IDF/SVM · NER · rapidfuzz |
+| **Vision** | YOLO · MediaPipe · OpenCV · MobileNetV2 · Tesseract (OCR) · Grad-CAM |
 | **Données** | Airflow · Spark · Kafka · n8n · DuckDB · ClickHouse · PostgreSQL · MongoDB · MinIO/S3 · HDFS · Parquet · architecture médaillon · Lambda |
 | **Plateforme** | Docker &amp; Compose · Linux · Traefik · GitHub Actions · Zabbix · Grafana |
 | **Applicatif** | Python · TypeScript · PHP · FastAPI · Flask · Streamlit · React · React Native · SvelteKit |
