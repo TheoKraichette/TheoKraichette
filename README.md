@@ -39,7 +39,7 @@ par renforcement sous contrainte réglementaire.
 
 | Domaine | Technologies |
 |---|---|
-| **Modèles** | PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · NumPy · CNN · RNN/LSTM · Transformers (attention implémentée à la main) · transfer learning |
+| **Modèles** | PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · NumPy · CNN · RNN/LSTM · Transformers · transfer learning |
 | **Apprentissage par renforcement** | Q-learning tabulaire · DQN · PPO · behavior cloning · politiques et évaluation écrites à la main |
 | **Traitement du langage** | spaCy · XLM-RoBERTa · TF-IDF/SVM · NER · rapidfuzz |
 | **Vision** | YOLO · MediaPipe · OpenCV · MobileNetV2 · Tesseract (OCR) · Grad-CAM |
