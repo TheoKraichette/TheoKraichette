@@ -12,7 +12,7 @@
 
 ## IA &amp; modèles
 
-| Projet | | Stack |
+| Projet | Ce qu'il fait | Stack |
 |---|---|---|
 | **[Noob Sama](https://github.com/Calamia92/Noob_Sama)** | Un agent apprend à jouer à un roguelite : behavior cloning puis DQN, écrits en NumPy sans framework — sur [mon propre jeu](https://kraich.itch.io/eclipse-of-souls) <sub>· équipe, 38 des 50 commits</sub> | `NumPy` `DQN` `Behavior Cloning` `Playwright` `pytest` |
 | **[DocuScan AI](https://github.com/PhilLeGoff/hackaton-groupe-12)** | OCR, classification et détection d'anomalies sur documents administratifs, orchestrés en DAG Airflow sur un lac HDFS <sub>· hackathon à 7, 74 des 128 commits</sub> | `Tesseract` `spaCy` `TF-IDF/SVM` `XLM-RoBERTa` `rapidfuzz` `Airflow` `HDFS` `FastAPI` `MongoDB` `React` `Docker` |
@@ -21,19 +21,13 @@
 
 ## Données &amp; plateforme
 
-| Projet | | Stack |
+| Projet | Ce qu'il fait | Stack |
 |---|---|---|
 | **[ImmoLake](https://github.com/TheoKraichette/ImmoLake)** | Croise prix DVF et diagnostics DPE pour repérer les biens sous-cotés avant l'interdiction des passoires thermiques | `Airflow 3` `MinIO` `DuckDB` `Parquet` `architecture médaillon` `Streamlit` `Docker` |
 | **[ExoLifeAnalyzer](https://github.com/TheoKraichette/ExoLifeAnalyzer)** | Indicateurs de vie détectés sur un flux de signaux à 50–100 msg/s, architecture Lambda HDFS-first | `Kafka` `Hadoop` `HDFS` `Spark` `MongoDB` `Parquet` `Docker` |
 | **[CrimeScope NYC](https://github.com/Calamia92/CrimeScope-NYC)** | Plaintes du NYPD : entrepôt ClickHouse, indexation géospatiale H3, prévisions par le modèle Chronos-2 <sub>· équipe</sub> | `ClickHouse` `Chronos-2` `H3` `Socrata` `SvelteKit` `Bun` `ElysiaJS` `FastAPI` `MapLibre` `Docker` |
 | **[tp-datalake](https://github.com/TheoKraichette/tp-datalake)** | Lac objet et métadonnées relationnelles, ingestion orchestrée sans écrire de glue code | `PostgreSQL` `MinIO` `S3` `n8n` `Docker` |
 
-Du développement applicatif, utile tous les jours pour livrer un modèle autrement qu'en notebook :
-**[WeSkateGo](https://github.com/TheoKraichette/WeSkateGo)** (React Native, géolocalisation) et
-**[CheckTricks](https://github.com/TheoKraichette/checktricks)** (MERN, JWT).
-
-M2 Développement / Data / IA — mémoire sur la conception d'îlots urbains par apprentissage
-par renforcement sous contrainte réglementaire.
 ## Stack
 
 | Domaine | Technologies |
@@ -52,5 +46,6 @@ Du développement applicatif, utile tous les jours pour livrer un modèle autrem
 **[WeSkateGo](https://github.com/TheoKraichette/WeSkateGo)** (React Native, géolocalisation) et
 **[CheckTricks](https://github.com/TheoKraichette/checktricks)** (MERN, JWT).
 
-M2 Développement / Data / IA — mémoire sur la conception d'îlots urbains par apprentissage
-par renforcement sous contrainte réglementaire.
+---
+
+<sub>M2 Développement / Data / IA — mémoire en cours sur la conception d'îlots urbains par un agent d'apprentissage par renforcement contraint par la réglementation d'urbanisme.</sub>
