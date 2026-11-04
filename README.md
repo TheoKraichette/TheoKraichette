@@ -14,7 +14,8 @@
 
 | Projet | Ce qu'il fait | Stack |
 |---|---|---|
-| **[Noob Sama](https://github.com/TheoKraichette/Noob_Sama)** | Un agent apprend à jouer à un roguelite : behavior cloning puis DQN, écrits en NumPy sans framework — sur [mon propre jeu](https://github.com/TheoKraichette/EclipseOfSouls) <sub>· équipe, 38 des 50 commits</sub> | `NumPy` `DQN` `Behavior Cloning` `Playwright` `pytest` |
+| **[Noob Sama](https://github.com/TheoKraichette/Noob_Sama)** | Un agent apprend à jouer à un roguelite : behavior cloning puis DQN, écrits en NumPy sans framework — sur [mon propre jeu](https://kraich.itch.io/eclipse-of-souls) <sub>· équipe, 38 des 50 commits</sub> | `NumPy` `DQN` `Behavior Cloning` `Playwright` `pytest` |
+| **[ProctorWise](https://github.com/TheoKraichette/proctorwise)** | Surveillance d'examens en ligne : détection d'anomalies hybride YOLO + MediaPipe sur le flux webcam, six microservices en architecture hexagonale, notifications WebSocket et mail, rapports Spark orchestrés par Airflow sur HDFS <sub>· équipe, 68 des 129 commits</sub> | `YOLO` `MediaPipe` `FastAPI` `MariaDB` `Kafka` `Spark` `Airflow` `HDFS` `WebSocket` `Docker` |
 | **[Usine v2](https://github.com/TheoKraichette/KingTen-usine-v2)** | Une usine à micro-SaaS pilotée par des agents : idée, produit, code, puis chaque app est buildée en Docker, lancée et testée de bout en bout avant d'être livrée — une app livrée est une app qui tourne | `Claude Agent SDK` `Pydantic` `asyncio` `Docker` `Playwright` `httpx` `SQLite` |
 | **[DocuScan AI](https://github.com/PhilLeGoff/hackaton-groupe-12)** | OCR, classification et détection d'anomalies sur documents administratifs, orchestrés en DAG Airflow sur un lac HDFS <sub>· hackathon à 7, 74 des 128 commits</sub> | `Tesseract` `spaCy` `TF-IDF/SVM` `XLM-RoBERTa` `rapidfuzz` `Airflow` `HDFS` `FastAPI` `MongoDB` `React` `Docker` |
 | **[CinePoster Insight](https://github.com/Calamia92/CinePoster-AI)** | Les genres d'un film devinés depuis sa seule affiche, avec Grad-CAM pour montrer où le modèle a regardé <sub>· équipe</sub> | `TensorFlow` `MobileNetV2` `Grad-CAM` `scikit-learn` `pandas` `Streamlit` `Altair` |
@@ -29,15 +30,15 @@
 | **[CrimeScope NYC](https://github.com/Calamia92/CrimeScope-NYC)** | Plaintes du NYPD : entrepôt ClickHouse, indexation géospatiale H3, prévisions par le modèle Chronos-2 <sub>· équipe</sub> | `ClickHouse` `Chronos-2` `H3` `Socrata` `SvelteKit` `Bun` `ElysiaJS` `FastAPI` `MapLibre` `Docker` |
 | **[tp-datalake](https://github.com/TheoKraichette/tp-datalake)** | Lac objet et métadonnées relationnelles, ingestion orchestrée sans écrire de glue code | `PostgreSQL` `MinIO` `S3` `n8n` `Docker` |
 
-## Jeux &amp; génération procédurale
+## Jeux &amp; simulation
 
-Des mondes générés plutôt qu'écrits — et un jeu qui sert aussi d'environnement d'entraînement.
+Génération procédurale, simulation, et un jeu qui sert aussi d'environnement d'entraînement.
 
 | Projet | Ce qu'il fait | Stack |
 |---|---|---|
-| **[Eclipse of Souls](https://github.com/TheoKraichette/EclipseOfSouls)** | Roguelite d'action twin-stick 100 % clavier, dix biomes et un boss en quatre phases, [jouable dans le navigateur](https://kraich.itch.io/eclipse-of-souls) — c'est sur lui que s'entraîne l'agent de Noob Sama | `Canvas 2D` `JavaScript ES Modules` `zéro dépendance` `Docker` |
+| **[Eclipse of Souls](https://kraich.itch.io/eclipse-of-souls)** | Roguelite d'action twin-stick 100 % clavier, dix biomes et un boss en quatre phases, jouable dans le navigateur — c'est sur lui que s'entraîne l'agent de Noob Sama | `Canvas 2D` `JavaScript ES Modules` `zéro dépendance` |
 | **[EscapeUp](https://github.com/TheoKraichette/escapeUp)** | Escape rooms infinies générées depuis une graine : le graphe de solution est construit à rebours puis déguisé en salle, et un solveur prouve chaque salle avant de la servir | `TypeScript` `Fastify` `PostgreSQL` `Drizzle` `React Three Fiber` `Vitest` `Docker` |
-| **[Echoes](https://github.com/TheoKraichette/echoes)** | Jeu d'enquête sans affaire scriptée : une ville de soixante habitants est simulée (besoins, relations, économie) et les crimes émergent de la simulation ; le joueur enquête sur ce qui s'est vraiment passé | `TypeScript` `Node` `SQLite` `React 19` `Three.js` `Docker` |
+| **[Gourou Inc.](https://github.com/TheoKraichette/gourinc)** | Jeu de gestion de secte en comédie noire où le décor est l'interface : les stats se lisent dans la scène, les actions sont des gestes | `Next.js` `React` `TypeScript` `Zustand` `Tailwind` |
 
 ## Stack
 
@@ -48,9 +49,9 @@ Des mondes générés plutôt qu'écrits — et un jeu qui sert aussi d'environn
 | **Agents &amp; IA générative** | Claude Agent SDK · sorties structurées (Pydantic) · validation automatique des livrables (Docker, Playwright) · LLM local (Ollama) · extraction structurée de règles |
 | **Traitement du langage** | spaCy · XLM-RoBERTa · TF-IDF/SVM · NER · rapidfuzz |
 | **Vision** | YOLO · MediaPipe · OpenCV · MobileNetV2 · Tesseract (OCR) · Grad-CAM |
-| **Données** | Airflow · Spark · Kafka · n8n · DuckDB · ClickHouse · PostgreSQL · SQLite · MongoDB · MinIO/S3 · HDFS · Parquet/GeoParquet · GeoPandas · H3 · architecture médaillon · Lambda |
+| **Données** | Airflow · Spark · Kafka · n8n · DuckDB · ClickHouse · PostgreSQL · MariaDB · SQLite · MongoDB · MinIO/S3 · HDFS · Parquet/GeoParquet · GeoPandas · H3 · architecture médaillon · Lambda |
 | **Plateforme** | Docker &amp; Compose · Linux · Traefik · GitHub Actions · Zabbix · Grafana |
-| **Applicatif** | Python · TypeScript · PHP · FastAPI · Fastify · Flask · Streamlit · React · React Native · SvelteKit · Three.js |
+| **Applicatif** | Python · TypeScript · PHP · FastAPI · Fastify · Flask · Streamlit · React · Next.js · React Native · SvelteKit · Three.js |
 
 ## Avant la data
 
