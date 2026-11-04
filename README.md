@@ -26,6 +26,7 @@
 | **[ImmoLake](https://github.com/TheoKraichette/ImmoLake)** | Croise prix DVF et diagnostics DPE pour repérer les biens sous-cotés avant l'interdiction des passoires thermiques | `Airflow 3` `MinIO` `DuckDB` `Parquet` `architecture médaillon` `Streamlit` `Docker` |
 | **[ExoLifeAnalyzer](https://github.com/TheoKraichette/ExoLifeAnalyzer)** | Indicateurs de vie détectés sur un flux de signaux à 50–100 msg/s, architecture Lambda HDFS-first | `Kafka` `Hadoop` `HDFS` `Spark` `MongoDB` `Parquet` `Docker` |
 | **[CrimeScope NYC](https://github.com/Calamia92/CrimeScope-NYC)** | Plaintes du NYPD : entrepôt ClickHouse, indexation géospatiale H3, prévisions par le modèle Chronos-2 <sub>· équipe</sub> | `ClickHouse` `Chronos-2` `H3` `Socrata` `SvelteKit` `Bun` `ElysiaJS` `FastAPI` `MapLibre` `Docker` |
+| **[Mycards](https://github.com/Cronchito94/Mycards)** | Référentiel de cartes Pokémon importé depuis TCGdex, recherche plein texte tolérante aux accents, collection valorisée au prix du marché avec historique des cotes <sub>· en binôme</sub> | `FastAPI` `SQLAlchemy 2` `PostgreSQL` `pg_trgm` `Alembic` `pytest` `Docker` |
 | **[tp-datalake](https://github.com/TheoKraichette/tp-datalake)** | Lac objet et métadonnées relationnelles, ingestion orchestrée sans écrire de glue code | `PostgreSQL` `MinIO` `S3` `n8n` `Docker` |
 
 ## Stack
@@ -33,12 +34,12 @@
 | Domaine | Technologies |
 |---|---|
 | **Modèles** | PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · NumPy · CNN · RNN/LSTM · Transformers · transfer learning |
-| **Apprentissage par renforcement** | Q-learning tabulaire · DQN · PPO · behavior cloning · politiques et évaluation écrites à la main |
-| **Traitement du langage** | spaCy · XLM-RoBERTa · TF-IDF/SVM · NER · rapidfuzz |
+| **Apprentissage par renforcement** | Q-learning tabulaire · DQN · PPO à masquage d'actions · behavior cloning · Gymnasium · Stable-Baselines3 · politiques et évaluation écrites à la main |
+| **Traitement du langage** | spaCy · XLM-RoBERTa · TF-IDF/SVM · NER · rapidfuzz · LLM local (Ollama) · extraction structurée de règles |
 | **Vision** | YOLO · MediaPipe · OpenCV · MobileNetV2 · Tesseract (OCR) · Grad-CAM |
-| **Données** | Airflow · Spark · Kafka · n8n · DuckDB · ClickHouse · PostgreSQL · MongoDB · MinIO/S3 · HDFS · Parquet · architecture médaillon · Lambda |
+| **Données** | Airflow · Spark · Kafka · n8n · DuckDB · ClickHouse · PostgreSQL · MongoDB · MinIO/S3 · HDFS · Parquet/GeoParquet · GeoPandas · H3 · architecture médaillon · Lambda |
 | **Plateforme** | Docker &amp; Compose · Linux · Traefik · GitHub Actions · Zabbix · Grafana |
-| **Applicatif** | Python · TypeScript · PHP · FastAPI · Flask · Streamlit · React · React Native · SvelteKit |
+| **Applicatif** | Python · TypeScript · PHP · FastAPI · SQLAlchemy · Flask · Streamlit · React · React Native · SvelteKit |
 
 ## Avant la data
 
@@ -48,4 +49,4 @@ Du développement applicatif, utile tous les jours pour livrer un modèle autrem
 
 ---
 
-<sub>M2 Développement / Data / IA — mémoire en cours sur la conception d'îlots urbains par un agent d'apprentissage par renforcement contraint par la réglementation d'urbanisme.</sub>
+<sub>M2 Développement / Data / IA (IPSSI) — mémoire rendu en novembre 2026 : aide à la conception d'îlots urbains par un agent par renforcement conditionné (PPO à masquage d'actions écrit en PyTorch, conforme par construction aux règles de PLU) et une chaîne de modèle de langage local, sur un lakehouse DuckDB / GeoParquet qui ingère n'importe quelle parcelle française depuis les sources ouvertes. Code non publié.</sub>
